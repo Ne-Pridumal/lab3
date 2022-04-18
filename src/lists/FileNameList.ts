@@ -1,0 +1,26 @@
+export const FileNameList = [
+  [
+    'sun',
+    'moon',
+    'helecopter',
+    'car',
+    'airplane',
+    'clown',
+  ],
+  [
+    'pizza',
+    'hamburger',
+    'computer',
+    'milky-way',
+    'ball',
+    'mavsoley'
+  ],
+  [
+    'ocean',
+    'rainbow',
+    'ship',
+    'react',
+    'earth',
+    'rocket'
+  ]
+]

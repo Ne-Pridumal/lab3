@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-color: #374954;
+    font: normal 14px/100% "Andale Mono", AndaleMono;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-img-area{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.list-container{
+  height: 200px;
+  display: flex;
+  flex: .75;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-area{
+  
+}
+.list-area__item{
+  background-color: #4F6877;
+  outline: none;
+  border: none;
+  margin: 5px;
+  width: 144px;
+  height: 40px;
+  color: #fff;
+}
+
+.list-area__item::placeholder{
+  color: #fff;
+  text-align: center;
+}
+
+.list-area__current{
+  border: 1px solid #fff !important;
+}
+
+.radio-area{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.button-container{
+  width: 924px;
+}
+.button-area{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-area__item{
+  background-color: #6BBE92;
+  width: 144px;
+  border: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
